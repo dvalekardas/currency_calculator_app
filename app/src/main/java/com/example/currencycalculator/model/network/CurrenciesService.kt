@@ -1,5 +1,6 @@
 package com.example.currencycalculator.model.network
 
+import android.util.Log
 import com.example.currencycalculator.model.models.ConversionResponse
 import com.example.currencycalculator.model.models.CurrenciesResponse
 import io.reactivex.rxjava3.core.Single
@@ -8,7 +9,7 @@ import retrofit2.Retrofit
 import retrofit2.adapter.rxjava3.RxJava3CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 
-class CurrenciesService {
+class CurrenciesService private constructor() {
     private val BASE_URL = "https://api.apilayer.com/fixer/"
     private lateinit var currenciesApi: CurrenciesApi
 
