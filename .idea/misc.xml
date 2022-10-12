@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/dvale/OneDrive/Desktop/currency calculator/app/src/main/res/drawable/ic_baseline_backspace_24.xml" value="0.2484375" />
+        <entry key="..\:/Users/dvale/OneDrive/Desktop/currency calculator/app/src/main/res/layout-v26/activity_main.xml" value="0.1203125" />
+        <entry key="..\:/Users/dvale/OneDrive/Desktop/currency calculator/app/src/main/res/layout-w600dp-land/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/dvale/OneDrive/Desktop/currency calculator/app/src/main/res/layout/activity_currency_list.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/dvale/OneDrive/Desktop/currency calculator/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/dvale/OneDrive/Desktop/currency calculator/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/dvale/OneDrive/Desktop/currency calculator/app/src/main/res/layout/currency_item.xml" value="0.2" />
+        <entry key="..\:/Users/dvale/OneDrive/Desktop/currency calculator/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15104166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
