@@ -113,6 +113,11 @@ class MainActivity : AppCompatActivity() {
         binding.buttonSwap.setOnClickListener {
             swapCurrencies()
         }
+
+        binding.backspace.setOnLongClickListener{
+            clear()
+            true
+        }
     }
 
     private fun swapCurrencies(){

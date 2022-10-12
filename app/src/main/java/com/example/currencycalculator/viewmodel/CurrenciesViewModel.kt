@@ -17,8 +17,7 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-class CurrenciesViewModel(private val currenciesDatabaseService: DataDao) : ViewModel(){
-    private val currenciesNetworkService = CurrenciesService()
+class CurrenciesViewModel(private val currenciesDatabaseService: DataDao, private val currenciesNetworkService: CurrenciesService) : ViewModel(){
     val currencies = MutableLiveData<MutableList<Currency>>()
     val loading = MutableLiveData<Boolean>()
     val error = MutableLiveData<Boolean>()
